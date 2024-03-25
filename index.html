@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade Somativa</title>
+        <link rel="stylesheet" type="text/css" href="CSS/somativa.css"/>
+        <script type="text/javascript" src="jscript/samotiva.js"></script>
+    </head>
+    <body>
+        <div id="nome">
+            <h2>Emagreça Já</h2>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div id="corpo">
+                        <div class="tabela">
+                        <div class="titulo">
+
+                            <label>Digite o seu Nome:</label><br>
+                            <input type="text" id="snome"><br><br>
+                        
+                        </div>
+                        <div class="titulo">
+                            <label>Digite o seu Peso(kg):</label><br>
+                            <input type="number" id="peso" step="any"/><br><br>
+                        </div>
+                        <div class="titulo">
+                            <label>Digite a sua Altura em (cm):</label><br>
+                            <input type="number" id="altura" step="any"/><br><br> 
+                        </div>
+                        <div class="titulo">
+                            <label>Digite a sua Idade:</label><br>
+                            <input type="number" id="idade" step="any"/><br><br> 
+                        </div>
+                        <div class="titulo">
+                            <label>Digite a sua Circunferência abdominal em (cm):</label><br>
+                            <input type="number" id="circunferencia" step="any"/><br><br> 
+                        </div>
+                        <div class="titulo">
+                            <label>Escolha um gênero:</label><br>
+                            <input type="radio" id="masc" name="genero" value="Masculino" >
+                            <label for="masc">Masculino</label><br>
+                            <input type="radio" id="femi" name="genero" value="Feminino">
+                            <label for="femi">Feminino</label><br><br>
+                        </div>
+                        <div class="titulo">
+                            <label>Escolha Atividade Física</label><br><br>
+                            <select id="atividades">
+                                <option value="sedentario">Sedentário</option>
+                                <option value="moderado" >Moderado</option>
+                                <option value="ativo" >Ativo</option>
+                                <option value="muito ativo" >Muito Ativo</option>
+                            </select>
+                        </div><br>
+                        <div id="enviar">
+                            <input type="button" value="Verificar" id="btnVerificar" onclick="Enviar()"><br>
+                            <br>
+                            <form>
+                            seu nome é:<p id="rnome"></p>
+                            Seu IMC é :<p id="resultado"></p><br>
+                            Sua Frequencia Cardiaca é:<p id="resultado2"></p><br>
+                            Seu Metabolismo Basal é: <p id="resultado3"></p><br>
+                            E seu Risco é:<p id="resultado4"></p><br>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    <img src="peso ideal.png" id="imagem"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+}
+#corpo{
+    width: 100%;
+    margin: 0 auto;
+    background-size: contain;
+}
+.titulo{
+    font-family: "Garamond","Arial","sans-serif";
+    font-size: 25px;
+    margin: 0;
+    color: black;
+}
+#nome{
+    font-family: "Garamond",Arial,sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+}
+#resultado{
+    font-family: Arial,sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 0;
+}
+select{
+    font-size: 20px;
+}
+#btnVerificar{
+        background-image: linear-gradient(to bottom, #00ADAD,#007171);
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 25px;
+        box-shadow: 5px 10px 10px #000;
+        border: 1px solid #006969;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    #btnVerificar:hover{
+        background-image: linear-gradient(to bottom,#007171,#00ADAD);
+        text-decoration: none;
+    }
+img{
+    padding-left: 650px;
+}
+[class*='tabela-']{
+    width:100%;
+    min-height: 1px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 320px){
+    .tabela-pri{
+        width: 30%;
+        border: 2px dashed rgb(255, 0, 0);
+    }               
+}
